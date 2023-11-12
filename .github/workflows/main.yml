@@ -40,6 +40,10 @@ jobs:
         name: ml_pipeline-artifacts
         path: ${{ github.workspace }}/results
 
+    - name: Pull latest changes
+      run: |
+        git pull origin main
+
     - name: Save to repository
       env:
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
