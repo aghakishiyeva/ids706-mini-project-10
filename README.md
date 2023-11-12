@@ -1,6 +1,6 @@
 # PySpark Data Processing
 
-![Python CI](https://github.com/aghakishiyeva/ids706-mini-project-10/actions/workflows/main.yml/badge.svg)
+![Python CI](https://github.com/aghakishiyeva/ids706-mini-project-10/actions/workflows/main.yml/badge.svg) 
 
 This project is focused on calculating descriptive statistics utilizing a PySpark setup with CI/CD implemented through GitHub Actions. It comes with a **.devcontainer** setup for streamlined development within a Docker container using Visual Studio Code. 
  
