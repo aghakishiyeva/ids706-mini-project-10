@@ -2,7 +2,7 @@
 
 ![Python CI](https://github.com/aghakishiyeva/ids706-mini-project-10/actions/workflows/main.yml/badge.svg)
 
-This project is focused on calculating descriptive statistics utilizing a Python setup with CI/CD implemented through GitHub Actions. It comes with a **.devcontainer** setup for streamlined development within a Docker container using Visual Studio Code. 
+This project is focused on calculating descriptive statistics utilizing a PySpark setup with CI/CD implemented through GitHub Actions. It comes with a **.devcontainer** setup for streamlined development within a Docker container using Visual Studio Code. 
  
 ## 🚀 Getting Started
 
@@ -26,11 +26,11 @@ pytest
 This command runs all the unit tests and ensures that any changes made haven't introduced new issues.
 
 ## 🛠️ File Structure
-* src/main.py: The central script housing functions such as read_dataset, generate_summary_statistics, and create_data_visualization.
-* src/winequality-red.csv: A dataset file utilized within the project.
-* tests/test_main.py: Includes unit tests for the functions defined in main.py.
+* src/main.py: The central script for PySpark data processing.
+* src/winequality-red.csv: A sample dataset file utilized within the project.
+* tests/test_main.py:  Includes unit tests for the PySpark functions defined in main.py.
 * tests/test.csv: A CSV file used for testing purposes.
-* requirements.txt: Lists the Python dependencies necessary for this project.
+* requirements.txt: Lists the Python dependencies, including PySpark, necessary for this project.
 * .devcontainer: Contains configurations for the VS Code remote container development setup.
 * .github/workflows/main.yml: Describes the workflow procedures for Continuous Integration using GitHub Actions.
 
